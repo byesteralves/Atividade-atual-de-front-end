@@ -1,0 +1,52 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f5f5f5;
+    }
+
+    .container{
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      width: 380px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+
+    h1{
+      margin-bottom: 20px;
+      color: #000000;
+    }
+
+    .estrelas{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      font-size: 40px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    .estrela{
+      color: #ccc;
+      transition: 0.2s;
+    }
+
+    .estrela.ativa{
+      color: gold;
+    }
+
+    .mensagem{
+      font-size: 18px;
+      font-weight: bold;
+      color: #000000;
+    }
