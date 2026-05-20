@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Virtual de Eletrônicos</title>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>Loja de Eletrônicos</h1>
+
+    <div class="produto">
+      <label>Produto</label>
+      <input type="text" value="Notebook Gamer" readonly>
+    </div>
+
+    <div class="produto">
+      <label>Valor Unitário (R$)</label>
+      <input type="number" id="valor" value="3500" readonly>
+    </div>
+
+    <div class="produto">
+      <label>Quantidade</label>
+      <input type="number" id="quantidade" value="1" min="1">
+    </div>
+
+    <div class="total">
+      Total: R$ <span id="total">3500.00</span>
+    </div>
+
+  </div>
+  </body>
+  </html>
