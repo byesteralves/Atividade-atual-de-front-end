@@ -1,0 +1,58 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #0f172a;
+      color: white;
+    }
+
+    .container{
+      width: 600px;
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    h1{
+      margin-bottom: 20px;
+      color: #38bdf8;
+    }
+
+    .miniatura{
+      width: 100%;
+      height: 220px;
+      background: url("https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg") center/cover;
+      border-radius: 10px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .miniatura::after{
+      content: "▶ Clique para assistir";
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background: rgba(0,0,0,0.6);
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    iframe{
+      width: 100%;
+      height: 320px;
+      margin-top: 20px;
+      border-radius: 10px;
+      display: none;
+    }
